@@ -26,15 +26,23 @@ li a{
 	color: rgb(19, 18, 18);
 
 }
-
+#zlink{
+	padding-left: 5px;
+}
 /* Change the link color to #111 (black) on hover */
 .alink:hover {
-  background-color: rgb(60, 157, 236);
-  color: white;
+  /* background-color: #464563; */
+  color: #7a77bd;
 }
-.active {
-  background-color: #cc900e;
+#zlink:hover {
+	/* height: 30px; */
+  /* background-color: #464563; */
+  color: #7a77bd;
+  cursor: pointer;
 }
+/* .active {
+  background-color: #cc900e; 
+} */
 li:last-child {
   border-right: none;
 }
